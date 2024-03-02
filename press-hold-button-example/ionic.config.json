@@ -1,0 +1,7 @@
+{
+  "name": "press-hold-button-example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

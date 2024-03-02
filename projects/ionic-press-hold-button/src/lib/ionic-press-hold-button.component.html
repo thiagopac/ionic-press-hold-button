@@ -1,0 +1,23 @@
+<ion-button
+  (mousedown)="startAction($event)"
+  (mouseup)="stopAction()"
+  (mouseleave)="stopAction()"
+  (touchstart)="startAction($event)"
+  (touchend)="stopAction()"
+  (touchcancel)="stopAction()"
+  [ngStyle]="{ 'background-color': backgroundColor }"
+  class="press-hold-button"
+  expand="block"
+>
+  <ion-icon name="start-icon" *ngIf="currentState === 'start'"></ion-icon>
+
+  <span class="label-container">{{ label }}</span>
+
+  <ion-icon name="finish-icon" *ngIf="currentState === 'finish'"></ion-icon>
+
+  <div
+    #progressBar
+    class="progress-bar"
+    [ngStyle]="{ 'background-color': progressColor }"
+  ></div>
+</ion-button>

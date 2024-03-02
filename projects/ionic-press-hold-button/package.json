@@ -1,10 +1,32 @@
 {
   "name": "ionic-press-hold-button",
+  "author": "Thiago Pires <thiagopac@gmail.com>",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.2.0",
     "@angular/core": "^17.2.0"
   },
+  "keywords": [
+    "ionic",
+    "button",
+    "press and hold",
+    "long press",
+    "user interaction",
+    "touch event",
+    "click event",
+    "hold button",
+    "progress button",
+    "action button",
+    "interactive button",
+    "ionic button",
+    "event handling",
+    "touch interaction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagopac/ionic-press-hold-button.git"
+  },
+  "license": "ISC",
   "dependencies": {
     "tslib": "^2.3.0"
   },
